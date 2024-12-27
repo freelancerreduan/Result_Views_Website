@@ -50,6 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
 
 
+  
 
         // Insert new student results
         $insert_query = "INSERT INTO students (roll_number, name, session, 
@@ -67,7 +68,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if (mysqli_query($conn, $insert_query)) {
             $message = '<script> 
-
                 Swal.fire({
                 position: "top-end",
                 icon: "success",

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>NPI Student Result Search</h2>
+        <form action="" method="POST">
+            <label for="roll_number">Roll Number:</label>
+            <input type="text" id="roll_number" name="roll_number" required>
+
+            <label for="session">Session:</label>
+            <select name="session" id="session" required>
+                <option value="2021-22">2021-22</option>
+                <option value="2023-24">2023-24</option>
+                <option value="2025-26">2025-26</option>
+                <option value="2027-28">2027-28</option>
+                <option value="2029-30">2029-30</option>
+            </select>
+
+            <button type="submit">Search Results</button>
+        </form>
+
+        <div id="results">
+            <h3>Student Results:</h3>
+            <p><b>Name:</b> [Name]</p>
+            <p><b>Roll Number:</b> [Roll Number]</p>
+            <p><b>Session:</b> [Session]</p>
+            <p>1 Semester: [Result]</p>
+            <p>2 Semester: [Result]</p>
+            <p>3 Semester: [Result]</p>
+            <p>4 Semester: [Result]</p>
+            <p>5 Semester: [Result]</p>
+            <p>6 Semester: [Result]</p>
+            <p>7 Semester: [Result]</p>
+            <p>8 Semester: [Result]</p>
+        </div>
+    </div>
+</body>
+</html>
