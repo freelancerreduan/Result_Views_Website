@@ -33,7 +33,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container">
         <h2>NPI Student Result Search</h2>
+<<<<<<< HEAD
         <h4 style="text-align: center;"> <i>Develop with  Reduan ( NPI Student ) </i> </h4>
+=======
+         <h4 style="text-align: center;"> <i>Develop with  Reduan ( NPI Student ) </i> </h4>
+>>>>>>> 3e9fa5b3d3061b748d6c1672fab32b55475421b8
         <form action="" method="POST">
             <label for="roll_number">Roll Number:</label>
             <input type="text" id="roll_number" name="roll_number" required>
