@@ -97,6 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="container">
         <h2>Submit Student Results</h2>
+        <h4 style="text-align: center;"> <i>Develop with  Reduan ( NPI Student ) </i> </h4>
         <?php if (isset($message)) { echo "<p>$message</p>"; } ?>
         <form action="" method="POST">
             <label for="roll_number">Roll Number:</label>
